@@ -50,3 +50,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.home-page {
+  background: url(./assets/mvp-banner.png);
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  padding-top: 9rem;
+}
