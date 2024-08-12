@@ -1,8 +1,18 @@
-#root {
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap");
+
+:root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --yellow: #fdc913;
+  --lightgray: #5f5f5f;
+  --darkgray: #292929;
+  --red: #ce2829;
+  --beige: #faf7f2;
 }
 
 .logo {
