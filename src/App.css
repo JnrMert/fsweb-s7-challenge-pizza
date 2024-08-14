@@ -65,3 +65,32 @@
   height: 50vh;
   padding-top: 9rem;
 }
+.header-main {
+  background-color: var(--red);
+  height: 240px;
+  z-index: -1;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.header-title {
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 25px;
+  align-self: center;
+}
