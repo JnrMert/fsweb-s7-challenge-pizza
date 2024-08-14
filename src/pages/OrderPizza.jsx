@@ -3,10 +3,10 @@ import Header from "../components/Header";
 // import Pizza from "../components/Pizza";
 // import Form from "../components/Form";
 
-const OrderPizzaPage = (props) => {
+const OrderPizza = (props) => {
   const [price, setPrice] = useState(0);
-  const selectedPrice = (p) => {
-    setPrice(p);
+  const selectedPrice = (probs) => {
+    setPrice(probs);
   };
   useEffect(() => {}, []);
   return (
@@ -20,4 +20,4 @@ const OrderPizzaPage = (props) => {
   );
 };
 
-export default OrderPizzaPage;
+export default OrderPizza;
