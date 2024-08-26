@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
-// import Pizza from "../components/Pizza";
+// import Pizza from "../components/Pizza"; 
 // import Form from "../components/Form";
 
 const OrderPizza = (props) => {
