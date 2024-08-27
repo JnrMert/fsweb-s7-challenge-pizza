@@ -10,7 +10,7 @@ const Button = () => {
 
   return (
     <div>
-      <button id="order-button" onClick={handleButtonClick}>
+      <button id="order-pizza" onClick={handleButtonClick}>
         ACIKTIM
       </button>
     </div>

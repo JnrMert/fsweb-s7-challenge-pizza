@@ -1,19 +1,21 @@
-import React from "react";
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import workintech from "/workintech.svg";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
-import HomePage from "./pages/HomePage";
-import OrderPizza from "./pages/OrderPizza";
+// App.js
 
-function App() {
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import OrderPizzaPage from "./pages/OrderPizza";
+import "./App.css";
+import SuccessPage from "./pages/SuccessPage";
+
+const App = () => {
   return (
     <Router>
       <Route path="/" exact component={HomePage} />
-      <Route path="/pizza" component={OrderPizza} />
+      <Route path="/options" />
+      <Route path="/pizza" component={OrderPizzaPage} />
+      <Route path="/success" exact component={SuccessPage} />
     </Router>
   );
-}
+};
 
 export default App;
